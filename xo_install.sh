@@ -49,7 +49,7 @@ ln -s /usr/bin/node /usr/local/bin/node
 # Removing the "Built from Source - no support banner
 sed -i '225,235 d' /opt/xen-orchestra/packages/xo-web/src/xo-app/index.js
 
-# Point people to this GH for issues first and we can escalte to vatefr if so required
+# Point people to this GH for issues first and we can escalte to vatesfr if so required
 
 sed -i 's~https://github.com/vatesfr/xen-orchestra/issues/new~https://github.com/Jarli01/xenorchestra_installer/issues/new~g' /opt/xen-orchestra/packages/xo-web/src/xo-app/about/index.js
 
