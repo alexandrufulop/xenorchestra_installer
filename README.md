@@ -5,7 +5,7 @@ Xen-Orchestra (Community Edition) allows you to administer Citrix XenServer and 
 The single line installation script allows you to go from a bare-minimal installation of [Ubuntu](https://ubuntu.com/download/server) or [Debian (Server)](https://www.debian.org/distrib/netinst) to fully operational XOCE server. Run the following steps from a root shell.
 
     wget https://raw.githubusercontent.com/alexandrufulop/xenorchestra_installer/master/xo_install.sh
-    sudo xo_install.sh
+    sudo bash xo_install.sh
     <enter your linux user password>
     
 The default username and password are applied, admin@admin.net and admin for the password
