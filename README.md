@@ -4,8 +4,8 @@ Xen-Orchestra (Community Edition) allows you to administer Citrix XenServer and 
 
 The single line installation script allows you to go from a bare-minimal installation of [Ubuntu](https://ubuntu.com/download/server) or [Debian (Server)](https://www.debian.org/distrib/netinst) to fully operational XOCE server. Run the following steps from a root shell.
 
-    curl https://raw.githubusercontent.com/Jarli01/xenorchestra_installer/master/xo_install.sh | sudo bash
-    <password>
+    curl https://github.com/alexandrufulop/xenorchestra_installer/master/xo_install.sh | sudo bash
+    <enter your linux user password>
     
 The default username and password are applied, admin@admin.net and admin for the password
     
@@ -20,7 +20,7 @@ This script automates the manual process which can be [found here](https://xen-o
 
 # Problems?
 
-Check out our [Troubleshooting Page](https://github.com/Jarli01/xenorchestra_installer/blob/master/TROUBLESHOOTING.md)!
+Check out our [Troubleshooting Page](https://github.com/alexandrufulop/xenorchestra_installer/blob/master/TROUBLESHOOTING.md)!
 
 # Goals/Backstory for this script
 
@@ -34,6 +34,6 @@ That goal transformed into the desire to assist the developers of XOA by using a
 
 While the goal initially was to have a solution as close to XOA as possible, with the script came the ability and goal to automate the installation. This is a big deal for these scripts today, while providing an as near-match solution to XOA as possible. 
 
-To keep XOCE up to date I recommend that anyone who's used this installation script or the sources installation to use this: https://github.com/Jarli01/xenorchestra_updater
+To keep XOCE up to date I recommend that anyone who's used this installation script or the sources installation to use this: https://github.com/alexandrufulop/xenorchestra_installer/
 
 
